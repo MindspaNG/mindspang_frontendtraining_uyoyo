@@ -1,0 +1,338 @@
+$black: rgb(0, 0, 0);
+$ablack: rgb(20, 20, 20);
+$bblack: rgb(41, 38, 38);
+$white: rgb(255, 255, 255);
+$awhite: rgb(238, 225, 225);
+$bwhite: rgb(172, 163, 163);
+$grey: grey;
+$agrey: rgb(122, 117, 117);
+$bgrey: rgb(158, 154, 154);
+$cgrey: rgb(211, 204, 204);
+$dgrey: rgb(230, 227, 227);
+$purple: rgb(131, 78, 131);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    image-resolution: 150dpi;
+}
+
+header {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    
+    nav{
+        //padding: 0px 40px ;
+        background-color: $ablack;
+
+        /*    #logo {
+            padding: 20px 0px 20px 40px;
+        } */
+
+        /* .container-fluid {
+            overflow: hidden;
+        } */
+
+        .lapa{
+            font-size: 90px;
+            color: $white;
+            font-weight: 300;
+            padding: 0px 40px 0px 0px;
+        }
+        
+
+       /* #navtext {
+            
+            .navbar-brand {
+              /*  padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 5px; 
+                img {
+                    max-width: 60%;
+                    color: $white;   
+                    padding: 70px;
+                }
+            }
+            .class {
+                width: 100%;
+            }
+            .btn{
+                color: $white;
+                padding: 0px
+            }
+            
+        }*/
+
+        li{
+            list-style-type: none;
+        }
+
+          .nav-item {
+            font-size: 15px;
+            /* .nav-link {
+                font-size: 15px;
+                font-weight: 400;
+                padding: 0px 25px;
+            }*/
+       }
+        
+        
+        #form{
+          //  padding: 20px 0px 20px 40px;
+            input {
+                border: 1px solid $white;
+                border-radius: 29px;
+               padding: 10px 10px 10px 20px;
+            }
+        }
+    }
+}
+
+
+#sect1 {
+    a {
+        color: $black;
+        font-size: 15px;
+    }
+    a:hover {
+        color: $purple;
+        text-decoration: none;
+    }
+}
+#sect2{
+    margin-top: 30px;
+    padding-left: 0px;
+    
+    li {
+        list-style-type: none;
+    }
+    
+    #tab {
+        color: $black;
+        background-color: $white;
+        border: 1px solid $cgrey;
+        border-bottom: 0px;
+        border-top-left-radius : 4px;
+        border-top-right-radius: 4px;
+        padding: 15px;
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+    
+    .img-thumbnail {
+        margin-top: 0;
+        border: 0;
+        position: relative;
+        width: 70%;
+        min-width: 300px;
+    }
+}
+
+#sect3 {
+    padding: 30px 0px 0px 5px;
+    background-color: $dgrey;
+    width: 69.7% ;
+    a {
+        height: 3rem;
+        font-size: 20px;
+        padding-bottom: 20px;
+        color: $white;
+        background-color: $purple;
+        
+    }
+}
+
+#sect4 {
+    padding: 70px 0px;
+    background-color: $dgrey;
+    padding-right: 0; 
+    h4 {
+       // padding-left: 20px;
+    }
+
+    img{
+        //  width: 60%;
+        width: 100%;
+        // min-width: 320px;
+        // margin: 50px 0px ;
+    }
+    
+    #pag {
+        padding: 0px;
+        
+
+        #deg {
+            background-color: $white;
+           // padding: 10px;
+            
+            #link {
+                border: 1px solid $cgrey;
+                background: $white;
+                //padding: 4px;
+                border-radius: 2px;
+                position: relative;
+                left: 350px;
+            }
+        }
+    }
+    #pag:hover {
+        transform: scale(1.001);
+        box-shadow: 10px 10px 24px rgba(97, 97, 97, 0.3);
+    }
+   // #pages:hover {
+     //   t
+    //}
+}
+
+#sect5 {
+    padding: 20px 20px ;
+    #sponsors {
+    h4 {
+        padding: 20px;
+    }
+/*
+    .row {
+        padding-left: 10px;
+    }*/
+    img {
+        width: 260px;
+        border-radius: 5px;
+        
+
+        
+        //margin-right: 60px;
+
+    }
+    // .images {
+    // padding: 30px 500px 30px 0px ;
+
+    //margin: 20px 40px;
+    
+    // } 
+}
+
+footer {
+    margin-bottom: 0;
+    .par{
+
+        p{
+            font-size: 15px;
+        }
+
+        a {
+            color: $purple;
+            font-weight: 600;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+    #hr1{
+        margin: 10px 20px;
+    }
+
+    #footer-top {
+        padding-top: 50px;
+    }
+    .hr2 {
+        width: 70px;
+    }
+
+    #socials {
+       
+
+        a{ 
+            color: $purple;
+        }
+
+        a:hover { 
+            text-decoration: underline;
+        }
+        #socials1, #socials2 {
+            padding: 20px 30px 20px 10px;
+        }
+    }
+    .links1{
+        margin-bottom: 90px;
+    }
+    .nav-link {
+        color: $purple;
+    }
+
+    .nav-link:hover {
+        color: $purple;
+        text-decoration: underline;
+    }
+    .head6{
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 20px;
+        color: $black;
+    }
+    .head6:hover{
+        color: $black;
+        text-decoration: underline;
+    }
+
+    .copyright {
+        font-size: 10px;
+        padding: 20px 0px 30px 0px ;
+        background-color: $cgrey;
+        margin-bottom: 0px;
+        height: 10px;
+        text-align: center;
+    }
+} 
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    nav {
+        #no-lapa {
+            font-size: 0px !important;
+        }
+        img {
+            width: 50px;
+        }
+     }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    
+ }
+
+
+ // Extra large devices 
+
+ @media (max-width: 2560px) {
+    nav {
+        .nav-link {
+            color: $white !important;
+            padding: 0px 15px !important;
+        }
+
+        .nav-link:hover {
+            color: $purple !important;
+        }
+    }
+ }
