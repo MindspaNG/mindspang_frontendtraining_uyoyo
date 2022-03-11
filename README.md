@@ -35,8 +35,7 @@
 - I included the link to my Font Awesome kit in the head of the HTML file to be able to access the Font Awesome icons
 - I used variables for colors and mixins for other CSS styles in the SCSS file to avoid repetition of code
  
- ## Hosted Web Link
- [Here]() is a live link of the project.
+ 
 ## Media
 - Images were gotten from [iStock](https://www.istockphoto.com/) and [Pexels](https://pexels.com/)
 - Icons were gotten from [Flaticon](https://www.flaticon.com) and [Font awesome](https://fontawesome.com/)
